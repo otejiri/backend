@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for bitcoin mining calculator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "s5331964@bournemouth.ac.uk",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.3",
+    "sqlite3": "^5.0.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
