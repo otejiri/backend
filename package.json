@@ -18,6 +18,9 @@
     "sequelize": "^6.21.3",
     "sqlite3": "^5.0.11"
   },
+  "engines": {
+    "node": "14.17.4"
+  },
   "devDependencies": {
     "nodemon": "^2.0.19"
   }
