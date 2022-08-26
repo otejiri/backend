@@ -21,7 +21,6 @@ module.exports = class Profitability {
     const profit = (h * t * b) / (2 ** 32 * d); // mining calculator formular
     const percentage = (profit / 100) * toBtc;
     const hashShare = (h / 100) * percentage;
-    console.log(hashShare);
 
     let hashPower = soloHash;
 

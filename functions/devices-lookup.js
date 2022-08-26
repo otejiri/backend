@@ -1,5 +1,3 @@
-const { Converter } = require("../../frontend/src/common/hash-converter");
-
 const { DeviceList } = require("../models");
 
 module.exports.getDevices = async (value) => {
