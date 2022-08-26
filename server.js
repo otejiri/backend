@@ -3,12 +3,10 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 
-const PORT = process.env.PORT || 5000;
 const path = require("path");
 const Routes = require("./routes");
-const connection = require("./util/database");
 
-app.get("api/", Routes);
+app.get("/api/", Routes);
 
 app.use(express.static(path.join(__dirname, "build")));
 app.get("*", (req, res) => {
